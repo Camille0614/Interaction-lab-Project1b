@@ -1,0 +1,138 @@
+body {
+  margin: 0;
+  padding: 50px;
+  font-family: "Times New Roman", serif;
+  background-color: rgb(220, 193, 193);
+  color: black;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+h1 {
+  font-family: "Times New Roman", serif;
+  font-size: 80px;
+  font-weight: normal;
+  font-style: italic;
+  margin-bottom: 40px;
+}
+
+a {
+  font-family: Arial, sans-serif;
+  color: black;
+  text-decoration: none;
+  font-size: 18px;
+  margin-right: 35px;
+}
+
+a:hover {
+  opacity: 0.5;
+}
+
+img {
+  width: 280px;
+  height: 280px;
+  object-fit: cover;
+  margin: 30px 20px 0 0;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(2, 400px);
+  gap: 30px;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.gallery img {
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+  margin: 0;
+}
+
+
+
+h2 {
+  font-family: "Georgia", serif;
+  font-size: 36px;
+  font-weight: normal;
+  margin-top: 60px;
+}
+
+.about-content {
+  max-width: 700px;
+  margin: 70px auto;
+  text-align: left;
+}
+
+.about-content h2 {
+  font-family: "Times New Roman", serif;
+  font-size: 32px;
+  font-weight: normal;
+  margin-top: 50px;
+  margin-bottom: 15px;
+}
+
+.about-content p {
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+  line-height: 1.7;
+  width: 520px;
+  margin: 0 auto 50px auto;
+  text-align: left;
+}
+
+.styles-content {
+  width: 600px;
+  margin: 70px auto;
+  text-align: center;
+}
+
+.styles-content h2 {
+  font-family: "Times New Roman", serif;
+  font-size: 32px;
+  font-weight: normal;
+  margin-top: 55px;
+  margin-bottom: 20px;
+}
+
+.styles-content p {
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+  line-height: 1.7;
+  width: 520px;
+  margin: 0 auto 45px auto;
+}
+
+.interview-content {
+  width: 650px;
+  margin: 70px auto;
+  text-align: left;
+}
+
+.interview-content h2 {
+  font-family: "Times New Roman", serif;
+  font-size: 34px;
+  font-weight: normal;
+  text-align: center;
+  margin-top: 65px;
+  margin-bottom: 30px;
+}
+
+.interview-content h3 {
+  font-family: "Times New Roman", serif;
+  font-size: 24px;
+  font-weight: normal;
+  margin-top: 35px;
+  margin-bottom: 12px;
+}
+
+.interview-content p {
+  font-family: Arial, sans-serif;
+  font-size: 18px;
+  line-height: 1.7;
+  width: 580px;
+  margin: 0 auto 35px auto;
+}
